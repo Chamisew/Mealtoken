@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Add some basic styles */
+.meal-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.meal-card {
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.cart-actions {
+  margin-top: 10px;
+}
+
+.cart-summary {
+  margin-top: 20px;
+}
+
+.cart-summary ul {
+  list-style-type: none;
+  padding: 0;
+}
+
